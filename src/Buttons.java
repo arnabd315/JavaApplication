@@ -14,7 +14,7 @@ public class Buttons {
             JButton b1 = new JButton("Click");
             class MyActionListener implements ActionListener {
                 public void actionPerformed(ActionEvent e) {
-                    System.out.println("Tickles!");
+                    System.out.println("Tickles! ");
                 }
             }
             b1.addActionListener(new MyActionListener());
